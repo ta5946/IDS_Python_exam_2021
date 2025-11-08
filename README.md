@@ -10,16 +10,21 @@ Before you start working on the task, create an empty environment (e.g. using co
 
 ```
 TODO: Add here all the commands you needed to enter to set up the environment.
+conda create -n exam2 python=3.13
+conda activate exam2
+pip intall jupyter
+# add the interpreter to PyCharm
+# run the Jupyter notebook
 ```
 
 **TODO: Add a screenshot of a running Jupyter notebook from which a selection of a correct Python kernel is visible (e.g. a selection of multiple possible kernels).**
-
+Screenshot
 
 ## 2. Perform Calendar Calculations "in Your Head"
 
 Which day of week was the 7th June 1987?
 
-It was **TODO: put your answer here, when you implement the functions below.**
+It was **TODO: put your answer here, when you implement the functions below.** Sunday
 
 Calendar calculations are actually very simple to perform and can be learned in less than 30 minutes. Instead learning how to perform them "in your head" you will need to implement them within the Jupyter notebook you created above.
 
@@ -84,9 +89,9 @@ To calculate the day of the week, add Y, M and D together. Then calculate the re
 
 Select a date and find out what day of the week was that day: 
   
-On **TODO: DATE** it was **TODO: DAY\_OF\_WEEK**.
+On **TODO: DATE** 8/11/2025 it was **TODO: DAY\_OF\_WEEK** Saturday.
 
-On 11th September 2001 it was **TODO: DAY\_OF\_WEEK**.
+On 11th September 2001 it was **TODO: DAY\_OF\_WEEK** Tuesday.
 
 ## 3. First days of years distribution
 
@@ -101,6 +106,7 @@ Your plot should look similar to the following one (take care of axis naming, ti
 Resulting plot:
 
 **TODO: show the "*days\_starting\_year\_distribution.png*" here**
+![Distribution of first days of the year](days_starting_year_distribution.png)
 
 ## 4. Export calendar data
 
